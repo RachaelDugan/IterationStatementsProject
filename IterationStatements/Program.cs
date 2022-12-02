@@ -51,14 +51,17 @@ namespace IterationStatements
             //Console.WriteLine("");
             //Console.WriteLine("Decrease:");
 
-            for (int i = 199; i <= num && i >= 0; i--) // Create a for loop - this will print the numbers in reverse order - from 200 to 1
+            for (int i = 199; i <= numbers.Count && i >= 0; i--) // Create a for loop - this will print
+                                                                 // the numbers in reverse order - from 200 to 1
                                                        // in your initializer set the value of i to 199
-                                                       // in your conditional, as long as i is less than or equal to the amount of items in "numbers" - use (numbers.Count)
+                                                       // in your conditional, as long as i is less than or
+                                                       // equal to the amount of items in "numbers" - use (numbers.Count)
                                                        // AND as long as i is greater than or equal to 0
                                                        // Decrement i by 1
 
             { Console.WriteLine(i); } // place numbers[i] inside of the Console.WriteLine() method
-                                      //------------End of exercise 2 
+                                      //------------End of exercise 2
+                                      //**I got all of exercise 2 correct before the demo, woo hoo!
 
             // Exercise 1
             for (int i = 0; i < 5; i++) // 1
